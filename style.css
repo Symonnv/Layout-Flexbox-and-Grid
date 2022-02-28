@@ -1,4 +1,7 @@
-* {
+body,
+ul,
+li,
+p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,12 +10,22 @@
   font-family: Arial;
 }
 
-/* Header */
 a {
   color: #fff;
   text-decoration: none;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Header */
 .header {
   background-color: #1d1320;
   display: flex;
@@ -31,3 +44,19 @@ a {
   padding: 10px;
   display: block;
 }
+
+/* Section FlexBox */
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flexbox > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+/* Section Grid 1 */
+/* Section Grid 2 */
+/* Section Grid 3 */
